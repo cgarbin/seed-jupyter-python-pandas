@@ -61,7 +61,9 @@ After that, learn how to add cells to the notebook. Cells can have [code](https:
 
 ### Saving the notebook
 
-Although you can save notebooks manually, most of the time this is not needed. Jupyter saves the changes as you make them.
+Jupyter notebooks are autosaved every two minutes (the default value - see [here](https://www.webucator.com/blog/2016/03/change-default-autosave-interval-in-ipython-notebook/) how to change it).
+
+The save command (`Ctrl-S` or the disk button in the toolbar) save the notebook immediately. Remember to manually saving before committing to source control, or the notebook will be missing the last two minutes or so of the work you did.
 
 Manually saving files create checkpoints that you can revert back to later. However, it's often better to use source control with frequent commits for that purpose. See the next section.
 
@@ -73,7 +75,7 @@ To use version control (with Git in this case), first initialize Git on the dire
 
     git init
 
-The step below is needed only if you don't plan to manually save the notebooks. Manually saving noteboks creates checkpoints for the notebooks (points in time you can revert to later). Usually version control replaces checkpoints, but nothing prevents you from using both. Skip that step if you plan to use manual checkpoints.
+The step below is needed only if you don't plan to use checkpoints (a point in time you can revert to later). Usually version control replaces checkpoints, but nothing prevents you from using both. Skip that step if you plan to use manual checkpoints together with version control.
 
 Remove the checkpoints from the list of tracked files
 
@@ -86,7 +88,7 @@ Commit a first version of the work so far:
     
 Now start making changes and commit them frequently.
 
-**IMPORTANT:** The notebook file has exactly what you see on screen. If you ran cells, the output of those cells are also saved on the file. This may make the file larger than needed and make diffs harder to follow. Use Kernel > "Restart & Clear Output" before committing to remove the output, leaving only the text and code cells in place.
+**IMPORTANT:** The notebook file has exactly what you see on screen. If you ran cells, the output of those cells are also saved on the file. This may make the file larger than needed and make diffs harder to follow. Use Kernel > "Restart & Clear Output" before saving to remove the output, leaving only the text and code cells in place.
 
 # License
 
