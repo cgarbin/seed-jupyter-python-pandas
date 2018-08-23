@@ -88,7 +88,7 @@ Commit a first version of the work so far:
     
 Now start making changes and commit them frequently.
 
-**IMPORTANT:** The notebook file has exactly what you see on screen. If you ran cells, the output of those cells are also saved on the file. This may make the file larger than needed and make diffs harder to follow. Use Kernel > "Restart & Clear Output" before saving to remove the output, leaving only the text and code cells in place.
+**IMPORTANT:** The notebook file has exactly what you see on screen. If you ran cells, the output of those cells is also saved on the file. This may make the file larger than needed and make diffs harder to follow. Use Kernel > "Restart & Clear Output" before saving to remove the output, leaving only the text and code cells in place.
 
 # License
 
