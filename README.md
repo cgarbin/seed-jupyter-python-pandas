@@ -1,7 +1,6 @@
-h1. A Jupyter Python seed notebook for data processing
+# A Jupyter Python seed notebook for data processing
 
 See section below << link >> if you are not familiar with Jupyter notebooks.
-
 
 This is a seed for (Jupyter)[http://jupyter.org/] notebooks that read, manipulate and visualize data.
 
@@ -13,7 +12,7 @@ It covers:
 * Filter data based on column values
 * Visualize data in a graph
 
-h2. References
+## References
 
 Some links I used to create the notebook:
 
@@ -22,11 +21,11 @@ Some links I used to create the notebook:
 * https://pandas.pydata.org/pandas-docs/stable/tutorials.html
 * https://pandas.pydata.org/pandas-docs/stable/cookbook.html
 
-h1. Quick "get started with Jupyter notebooks"
+# Quick "get started with Jupyter notebooks"
 
-h2. Installing and using Jupyter notebooks
+## Installing and using Jupyter notebooks
 
-h3. Installing and running the Jupyter engine
+### Installing and running the Jupyter engine
 
 Official installations instructions (here)[http://jupyter.org/install.html].
 
@@ -42,7 +41,7 @@ This opens your default browser with the entry page for Jupyter.
 
 >> pic here
 
-h3. Creating a notebook
+### Creating a notebook
 
 Click on "New" and Choose "Python 3"
 
@@ -52,19 +51,19 @@ Give it a name: click on the "Untitled" text and change to the name you want:
 
 A file with that name and the extension `.ipynb` is created in the directory from where you executed `jupyter notebook`.
 
-h3. Working with notebook
+### Working with notebook
 
 See the [basics of working with a notebook](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html) in the Jupyter docs for a five-minute introduction.
 
 After that, learn how to add cells to the notebook. Cells can have [code](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Running%20Code.html#) or [text](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).
 
-h3. Saving the notebook
+### Saving the notebook
 
 Although you can save notebooks manually, most of the time this is not needed. Jupyter saves the changes as you make them.
 
 Manually saving files create checkpoints that you can revert back to later. However, it's often better to use source control with frequent commits for that purpose. See the next section.
 
-h3. Adding version control
+### Adding version control
 
 Notebooks are text files and can (should) be under version control. 
 
