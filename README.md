@@ -31,7 +31,7 @@ Official installations instructions [here](http://jupyter.org/install.html).
 
 The gist of it:
 
-   python3 -m pip install jupyter
+    python3 -m pip install jupyter
  
 Once installed, run Jupyter:
 
@@ -39,15 +39,17 @@ Once installed, run Jupyter:
 
 This opens your default browser with the entry page for Jupyter.
 
->> pic here
+![Jupyter initial screen](./readme.pics/JupyterInitialScreen.png)
 
 ### Creating a notebook
 
 Click on "New" and Choose "Python 3"
 
+![Jupyter new file](./readme.pics/JupyterNewFile.png)
+
 Give it a name: click on the "Untitled" text and change to the name you want:
 
->> pic here
+![Jupyter notebook name](./readme.pics/JupyterNoteBookName.png)
 
 A file with that name and the extension `.ipynb` is created in the directory from where you executed `jupyter notebook`.
 
@@ -86,3 +88,6 @@ Now start making changes and commit them frequently.
 
 **IMPORTANT:** The notebook file has exactly what you see on screen. If you ran cells, the output of those cells are also saved on the file. This may make the file larger than needed and make diffs harder to follow. Use Kernel > "Restart & Clear Output" before committing to remove the output, leaving only the text and code cells in place.
 
+# License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
