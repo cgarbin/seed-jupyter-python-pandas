@@ -1,8 +1,8 @@
 # A Jupyter Python seed notebook for data processing
 
-See section below << link >> if you are not familiar with Jupyter notebooks.
+See [section below](#quick-get-started-with-jupyter-notebooks) if you are not familiar with Jupyter notebooks.
 
-This is a seed for (Jupyter)[http://jupyter.org/] notebooks that read, manipulate and visualize data.
+This is a seed for [Jupyter](http://jupyter.org/) notebooks that read, manipulate and visualize data.
 
 It covers:
 
@@ -27,7 +27,7 @@ Some links I used to create the notebook:
 
 ### Installing and running the Jupyter engine
 
-Official installations instructions (here)[http://jupyter.org/install.html].
+Official installations instructions [here](http://jupyter.org/install.html).
 
 The gist of it:
 
