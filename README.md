@@ -63,9 +63,12 @@ After that, learn how to add cells to the notebook. Cells can have [code](https:
 
 Jupyter notebooks are autosaved every two minutes (the default value - see [here](https://www.webucator.com/blog/2016/03/change-default-autosave-interval-in-ipython-notebook/) how to change it).
 
-The save command (`Ctrl-S` or the disk button in the toolbar) save the notebook immediately. Remember to manually saving before committing to source control, or the notebook will be missing the last two minutes or so of the work you did.
+The save command (`Ctrl-S` or the disk button in the toolbar) save the notebook immediately.
+Remember to manually saving before committing to source control, or the notebook will 
+be missing the last two minutes or so of the work you did.
 
-Manually saving files create checkpoints that you can revert back to later. However, it's often better to use source control with frequent commits for that purpose. See the next section.
+Manually saving files create checkpoints that you can revert back to later. However,
+it's often better to use source control with frequent commits for that purpose. See the next section.
 
 ### Adding version control
 
